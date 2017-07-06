@@ -10,7 +10,7 @@ name = name[::-1]  # 倒序
 
 # 字符串常用操作
 mystr = "Lichee's Python Learning is So Happy"
-mystr.find("ic")  # 返回第一次出现的下标, -1 mean not found
+mystr.find("ic")  # 返回第一次出现的下标, -1 means not found
 mystr.index("ic")  # index找不存在的会报错
 mystr.rfind("ic")  # r mean Right
 # 找文件后缀/类型

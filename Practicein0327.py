@@ -37,11 +37,11 @@ print("系统正在打印中...2")
 time.sleep(1)
 print("系统正在打印中...1")
 time.sleep(1)
-print("="*20)
-print("姓名：%s\nQQ:%s\nTel:%s\n" % name, qq, phoneNumber)
+print("=" * 20)
+print("姓名：%s\nQQ:%s\nTel:%s\n" % (name, qq, phoneNumber))
 print("=====================")
 
 # if语句的基本使用
 a = 16
-if a>18:
+if a > 18:
     print("%d>18" % a)

@@ -10,7 +10,7 @@ if 0 < int(length) <= 10:
 else:
     print("illegal")
 
-sex = input("your sex: ")
+sex = int(input("your sex: "))
 if sex == 0:
     print("man")
 elif sex == 1:

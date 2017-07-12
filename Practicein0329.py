@@ -16,15 +16,17 @@ mystr.rfind("ic")  # r mean Right
 # 找文件后缀/类型
 myFileName = "Practice.in.0328.py"
 index = myFileName.rfind(".")
-print(myFileName[index+1:])
+print(myFileName[index + 1:])
 
 mystr.count("i")
 print(mystr.replace("n", "N", 2))
+# 修改两次n->N,输出Lichee's PythoN LearNing is So Happy
 
-print(mystr.split(" "))
+print(mystr.split(" "))  # 分割所有的空格
 print(mystr.split(" ", 2))
+# 只分割前两个空格 后面的是还一个整体 ["Lichee's", 'Python', 'Learning is So Happy']
 
-print(mystr.capitalize())
+print(mystr.capitalize())  # 全小写
 
 print(mystr.startswith("Liche"))
 print(myFileName.endswith(".py"))
@@ -36,9 +38,14 @@ print(Ha.center(9))
 
 print(Ha.partition("a"))
 print(Ha.rpartition("a"))
+'''
+('h', 'a', 'ha')
+('hah', 'a', '')
+'''
 
 Ha = "ha\nha"
 
 mm = "_"
 newStr = ["Call", "me", "Lichee", "97"]
 print(mm.join(newStr))
+# 表示使用mm将列表里面的项串起来

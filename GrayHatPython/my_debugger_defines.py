@@ -30,7 +30,7 @@ class STARTUPINFO(Structure):
         ("dwFlags", DWORD),
         ("wShowWindow", WORD),
         ("cbReserved2", WORD),
-        ("lpReserved2", LPBYTE),
+        ("lpReserved2", LPTSTR),
         ("hStdInput", HANDLE),
         ("hStdOutput", HANDLE),
         ("hStdError", HANDLE),

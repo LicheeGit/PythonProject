@@ -13,7 +13,7 @@ class SweetPotato:
             msg += ',添加的佐料为：'
             for temp in self.condiments:
                 msg = msg + temp + ','
-            msg = msg.strip(",")
+            msg = msg.strip(",")  # 删除掉句子末尾的逗号，因为每味佐料加入时都是“xx酱，”
         return msg
 
     # 用火去烤地瓜
